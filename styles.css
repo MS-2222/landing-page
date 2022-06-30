@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header-hero {
+    background-color: #1F2937;
+    height: 535px;
+    display: flex;
+}
+
+.info {
+    height: 475px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 425px;
+}
+
+.sign-up {
+    height: 350px;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 72px;
+}
