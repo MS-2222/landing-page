@@ -20,10 +20,17 @@ body {
 .quote {
     background-color: #E5E7EB;
     height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up {
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -94,7 +101,75 @@ a {
 
 button {
     background-color: #3882F6;
+    border: 1px solid #1F2937;
+    border-radius: 10px;
     color: white;
     padding: 10px 25px 10px 25px;
     margin-top: 20px;
+}
+
+.container1, .container2, .container3, .container4 {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    height: 160px;
+    width: 160px;
+}
+
+.items1, .items2, .items3, .items4 {
+    width: 160px;
+}
+
+.text1, .text2, .text3, .text4 {
+    text-align: center;
+    font-size: 18px;
+    color: #707782;
+    margin-top: 5px;
+    width: 160px;
+    border: 5px solid white;
+}
+
+.all-items {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.info-head {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote-items {
+    width: 880px;
+    height: 240px;
+}
+
+.signup-items {
+    width: 900px;
+    height: 160px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px 40px 80px;
+
 }
