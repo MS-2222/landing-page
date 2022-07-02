@@ -1,5 +1,6 @@
 html * {
     font-family: 'roboto', 'sans-serif';
+    letter-spacing: -1px;
 }
 
 body {
@@ -35,7 +36,7 @@ body {
 
 .footer {
     background-color: #1F2937;
-    height: 72px;
+    height: 110px;
 }
 
 .logo-links {
@@ -99,7 +100,7 @@ a {
     color: #E5E7EB;
 }
 
-button {
+.hero-signup {
     background-color: #3882F6;
     border: 1px solid #1F2937;
     border-radius: 10px;
@@ -166,10 +167,51 @@ button {
 
 .signup-items {
     width: 900px;
-    height: 160px;
+    height: 80px;
+    border-radius: 10px;
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
     padding: 40px 80px 40px 80px;
+}
 
+.signup-words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.signup-head {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.signup-text {
+    font-size: 18x;
+}
+
+.lower-signup {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 25px 10px 25px;
+}
+
+.signup-button {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 16px;
 }
